@@ -10,5 +10,7 @@ def countdown (n)
 end
 
 def countdown_with_sleep
-  sleep 5.seconds
+  puts "#{n} seconds"
+  n -= 1
+  sleep 1.second 
 end
